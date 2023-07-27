@@ -278,6 +278,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+
                 <div class="card shadow-lg">
                     <figure class="px-10 pt-10">
                         <img src="./Images/fruit6.png" alt="Apples" />
@@ -295,10 +296,41 @@
                         </span>
                         <div class="card-actions">
                             <div class="card-actions">
-                                <button class="text-xl font-bold text-red-500">Details</button>
+                                <button class="text-xl font-bold text-red-500"
+                                    onclick="Apples.showModal()">Details</button>
                             </div>
                         </div>
+                        <dialog id="Apples" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><i
+                                        class="fas fa-times text-red-500 w-16"></i></button>
+                                <div class="card bg-base-100">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./Images/fruit6.png" alt="Apples" />
+                                    </figure>
+                                    <div class="card-body items-center text-center space-y-5">
+                                        <h2 class="card-title text-3xl font-extrabold">Apples</h2>
+                                        <p class=" text-base font-medium">Crisp and juicy fruit with a harmonious blend
+                                            of
+                                            sweetness and tartness, a timeless favorite loved for its versatility and
+                                            health benefits</p>
+                                        <span class="flex justify-center items-center gap-2">
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star-half-alt text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-300"></i>
 
+                                        </span>
+                                        <div class="card-actions">
+                                            <button
+                                                class="btn normal-case text-lg border-none text-white bg-rose-500 hover:bg-rose-500 font-extrabold">Buy
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
 
                     </div>
                 </div>
@@ -318,8 +350,37 @@
 
                         </span>
                         <div class="card-actions">
-                            <button class="text-xl font-bold text-red-500">Details</button>
+                            <button class="text-xl font-bold text-red-500" onclick="Orange.showModal()">Details</button>
                         </div>
+
+                        <dialog id="Orange" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><i
+                                        class="fas fa-times text-red-500 w-16"></i></button>
+                                <div class="card bg-base-100">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./Images/fruit7.png" alt="Orange" />
+                                    </figure>
+                                    <div class="card-body items-center text-center space-y-5">
+                                        <h2 class="card-title text-3xl font-extrabold">Orange</h2>
+                                        <p class=" text-base font-medium">Bursting with vibrant citrus flavor and packed
+                                            with immune-boosting vitamin C, a refreshing and tangy delight</p>
+                                        <span class="flex justify-center items-center gap-2">
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star-half-alt text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-300"></i>
+                                            <i class="fas fa-star text-xl text-green-300"></i>
+                                        </span>
+                                        <div class="card-actions">
+                                            <button
+                                                class="btn normal-case text-lg border-none text-white bg-rose-500 hover:bg-rose-500 font-extrabold">Buy
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
                 <div class="card shadow-lg">
@@ -337,8 +398,38 @@
                             <i class="fas fa-star-half-alt text-xl text-green-600"></i>
                         </span>
                         <div class="card-actions">
-                            <button class="text-xl font-bold text-red-500">Details</button>
+                            <button class="text-xl font-bold text-red-500" onclick="Dragon.showModal()">Details</button>
                         </div>
+
+                        <dialog id="Dragon" class="modal">
+                            <form method="dialog" class="modal-box">
+                                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><i
+                                        class="fas fa-times text-red-500 w-16"></i></button>
+                                <div class="card bg-base-100">
+                                    <figure class="px-10 pt-10">
+                                        <img src="./Images/fruit8.png" alt="Red Dragon" />
+                                    </figure>
+                                    <div class="card-body items-center text-center space-y-5">
+                                        <h2 class="card-title text-3xl font-extrabold">Red Dragon</h2>
+                                        <p class=" text-base font-medium">A strikingly colorful tropical fruit with a
+                                            sweet and mildly nutty flavor, offering a delightful taste and visual
+                                            experience</p>
+                                        <span class="flex justify-center items-center gap-2">
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star text-xl text-green-600"></i>
+                                            <i class="fas fa-star-half-alt text-xl text-green-600"></i>
+                                        </span>
+                                        <div class="card-actions">
+                                            <button
+                                                class="btn normal-case text-lg border-none text-white bg-rose-500 hover:bg-rose-500 font-extrabold">Buy
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </dialog>
                     </div>
                 </div>
                 <div class="card shadow-lg">
@@ -356,12 +447,41 @@
                             <i class="fas fa-star text-xl text-green-300"></i>
                         </span>
                         <div class="card-actions">
-                            <button class="text-xl font-bold text-red-500">Details</button>
+                            <button class="text-xl font-bold text-red-500" onclick="Banana.showModal()">Details</button>
+
+
                         </div>
                     </div>
+
+                    <dialog id="Banana" class="modal">
+                        <form method="dialog" class="modal-box">
+                            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"><i
+                                    class="fas fa-times text-red-500 w-16"></i></button>
+                            <div class="card bg-base-100">
+                                <figure class="px-10 pt-10">
+                                    <img src="./Images/fruit9.png" alt="Banana" />
+                                </figure>
+                                <div class="card-body items-center text-center space-y-5">
+                                    <h2 class="card-title text-3xl font-extrabold">Banana</h2>
+                                    <p class=" text-base font-medium">Naturally sweet and creamy, a potassium-rich
+                                        energy booster perfect for snacking and smoothies</p>
+                                    <span class="flex justify-center items-center gap-2">
+                                        <i class="fas fa-star text-xl text-green-600"></i>
+                                        <i class="fas fa-star text-xl text-green-600"></i>
+                                        <i class="fas fa-star text-xl text-green-600"></i>
+                                        <i class="fas fa-star text-xl text-green-300"></i>
+                                        <i class="fas fa-star text-xl text-green-300"></i>
+                                    </span>
+                                    <div class="card-actions">
+                                        <button
+                                            class="btn normal-case text-lg border-none text-white bg-rose-500 hover:bg-rose-500 font-extrabold">Buy
+                                            Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </dialog>
                 </div>
-
-
             </div>
             <div class="mt-8 text-center">
                 <button
