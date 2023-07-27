@@ -20,7 +20,49 @@
 <body>
     <header>
         <!-- navbar section -->
+        <div class="navbar max-w-screen-xl mx-auto rounded-full shadow-lg bg-red-500 text-white">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-red-500 text-white rounded-box w-72">
+                        <li><a>Item 3</a></li>
+                        <li><a>Item 3</a></li>
+                        <li><a>Item 3</a></li>
+                        <li><a>Item 3</a></li>
+                        <li><a>Item 3</a></li>
+                        <div class="relative flex justify-start items-center">
+                            <input type="text" placeholder="Search" class="input rounded-full md:w-auto" />
+                            <i class="fas fa-search absolute right-12 text-black w-10 text-lg"></i>
+                        </div>
+                    </ul>
+                </div>
+                <span class="flex items-center justify-center gap-3 cursor-pointer">
+                    <img src="./Images/logo.png" alt="">
+                    <h1 class="text-2xl font-bold">FruityFiesta</h1>
+                </span>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
 
+                </ul>
+            </div>
+            <div class="relative navbar-end flex justify-end items-center">
+                <input type="text" placeholder="Search" class="input rounded-full md:w-auto hidden lg:block" />
+                <i class="fas fa-search absolute text-black w-10 hidden lg:block"></i>
+            </div>
+        </div>
         <!-- banner Section start-->
         <div class="max-w-screen-xl mx-auto mt-20  flex items-center carousel w-full relative ">
             <div id="slide1" class="carousel-item relative w-full">
@@ -400,8 +442,13 @@
         <section class="max-w-screen-xl mx-auto mt-20">
             <div class="text-center mb-16 space-y-4">
                 <h1 class=" text-5xl font-bold text-black">Why Choose Us</h1>
-                <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in
-                    a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+                <p class="text-base font-medium">
+                    Our commitment to sustainability and reducing food waste led us to develop innovative packaging <br>
+                    solutions that go beyond merely storing fruits. We understand the importance of delivering the <br>
+                    freshest and highest quality produce to our customers, and that's why we've invested in cutting-edge
+                    <br>
+                    technology and eco-friendly materials to achieve this goal.
+                </p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="space-y-5">
@@ -412,7 +459,8 @@
                         <span class="space-y-3">
                             <h3 class="text-xl font-extrabold">Dedicated Team</h3>
                             <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p>Our dedicated team is committed to exceeding your expectations and delivering exceptional
+                                service.</p>
                         </span>
                     </div>
                     <div class="flex justify-center items-center gap-7">
@@ -422,7 +470,7 @@
                         <span class="space-y-3">
                             <h3 class="text-xl font-extrabold">Fresh is Best</h3>
                             <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p>Experience the delectable taste of nature's finest with our motto: Fresh is Best.</p>
                         </span>
                     </div>
                     <div class="flex justify-center items-center gap-7">
@@ -430,9 +478,10 @@
                             <i class="fas fa-certificate text-2xl"></i>
                         </span>
                         <span class="space-y-3">
-                            <h3 class="text-xl font-extrabold">Gift Certificates</h3>
+                            <h3 class="text-xl font-extrabold">Company Certification</h3>
                             <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                            <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                            <p>Assuring excellence - our company certification signifies our commitment to meeting the
+                                highest industry standards.</p>
                         </span>
                     </div>
                 </div>
@@ -448,7 +497,8 @@
                             <span class="space-y-3">
                                 <h3 class="text-xl font-extrabold">Integrated Supplier</h3>
                                 <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                <p>Seamless efficiency and quality assurance - our integrated supplier model ensures a
+                                    steady stream of premium products for your satisfaction.
                                 </p>
                             </span>
                         </div>
@@ -459,7 +509,8 @@
                             <span class="space-y-3">
                                 <h3 class="text-xl font-extrabold">Sustainable Practice</h3>
                                 <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                <p>Embrace a greener future with our sustainable practices, nurturing the planet while
+                                    offering top-quality products.
                                 </p>
                             </span>
                         </div>
@@ -470,7 +521,8 @@
                             <span class="space-y-3">
                                 <h3 class="text-xl font-extrabold">The Benefits Only</h3>
                                 <hr class="w-24 bg-gray-950 h-1 opacity-20">
-                                <p>Professional employees are there for you to pick the most amazing and fresh fruits.
+                                <p>Unlock exclusive advantages and extraordinary perks, available only to our valued
+                                    customers.
                                 </p>
                             </span>
                         </div>
@@ -483,7 +535,7 @@
         <div>
             <span class="flex items-center justify-center gap-3 cursor-pointer">
                 <img src="./Images/logo.png" alt="">
-                <h1 class="text-3xl font-bold">Fruity Fiesta</h1>
+                <h1 class="text-3xl font-bold">FruityFiesta</h1>
             </span>
         </div>
         <div class="flex flex-wrap justify-center mt-6 -mx-4 gap-10">
@@ -509,6 +561,7 @@
 
         </div>
     </footer>
+
 </body>
 
 </html>
